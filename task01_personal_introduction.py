@@ -1,0 +1,13 @@
+name = input("Enter Name: ")
+student_id = input("Enter ID: ")
+department = input("Enter Department: ")
+year = input("Enter Year: ")
+university = input("Enter University: ")
+phone = input("Enter Phone: ")
+
+print("Name: " + name)
+print("ID: " + student_id)
+print("Department: " + department)
+print("Year: " + year)
+print("University: " + university)
+print("Phone: " + phone)
