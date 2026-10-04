@@ -8,11 +8,11 @@ The first week focuses on building a strong foundation in Python programming thr
 
 ## Student Information
 
-- **Name:** Yasmin Ali
-- **GitHub Username:** jzzmiiinn
-- **Bootcamp:** AKIBA TECHNOLOGIES Software Engineering & Backend Bootcamp
-- **Week:** 1
-- **Focus:** Python Programming Foundations
+* **Name:** Yasmin Ali
+* **GitHub Username:** jzzmiiinn
+* **Bootcamp:** AKIBA TECHNOLOGIES Software Engineering & Backend Bootcamp
+* **Week:** 1
+* **Focus:** Python Programming Foundations
 
 ---
 
@@ -24,21 +24,21 @@ A Python program that collects personal information from the user and displays i
 
 **Information collected:**
 
-- Full name
-- Age
-- City
-- University
-- Department
-- Favorite programming language
-- Programming goal
+* Full name
+* Age
+* City
+* University
+* Department
+* Favorite programming language
+* Programming goal
 
 **Concepts practiced:**
 
-- Variables
-- Strings
-- `input()`
-- `print()`
-- Formatted output
+* Variables
+* Strings
+* `input()`
+* `print()`
+* Formatted output
 
 **File:**
 
@@ -54,20 +54,20 @@ A Python program that collects student information and displays it in a simple s
 
 **Information collected:**
 
-- Student name
-- Student ID
-- Department
-- Year
-- University
-- Phone number
+* Student name
+* Student ID
+* Department
+* Year
+* University
+* Phone number
 
 **Concepts practiced:**
 
-- Variables
-- Strings
-- Integers
-- User input
-- Formatted output
+* Variables
+* Strings
+* Integers
+* User input
+* Formatted output
 
 **File:**
 
@@ -83,24 +83,23 @@ A Python program that calculates the **area** and **perimeter** of a rectangle u
 
 **Information collected:**
 
-- Length
-- Width
+* Length
+* Width
 
 **Calculations:**
 
 ```text
 Area = Length × Width
-
 Perimeter = 2 × (Length + Width)
 ```
 
 **Concepts practiced:**
 
-- Numbers
-- Arithmetic operators
-- User input
-- Type conversion
-- Formatted output
+* Numbers
+* Arithmetic operators
+* User input
+* Type conversion
+* Formatted output
 
 **File:**
 
@@ -124,11 +123,11 @@ The program displays both the Celsius and Fahrenheit temperatures.
 
 **Concepts practiced:**
 
-- `float()`
-- Arithmetic operations
-- Mathematical formulas
-- User input
-- Formatted output
+* `float()`
+* Arithmetic operations
+* Mathematical formulas
+* User input
+* Formatted output
 
 **File:**
 
@@ -144,20 +143,20 @@ A Python program that creates a simple shopping receipt based on customer and pr
 
 **Information collected:**
 
-- Customer name
-- Product name
-- Price
-- Quantity
+* Customer name
+* Product name
+* Price
+* Quantity
 
 The program calculates the total price and displays a formatted receipt.
 
 **Concepts practiced:**
 
-- Numbers
-- Multiplication
-- Variables
-- Strings
-- Formatted output
+* Numbers
+* Multiplication
+* Variables
+* Strings
+* Formatted output
 
 **File:**
 
@@ -173,10 +172,10 @@ A Python program that generates a simple employee payslip.
 
 **Information collected:**
 
-- Employee name
-- Basic salary
-- Transport allowance
-- Food allowance
+* Employee name
+* Basic salary
+* Transport allowance
+* Food allowance
 
 The program calculates the gross salary:
 
@@ -187,10 +186,10 @@ Basic Salary + Transport Allowance + Food Allowance
 
 **Concepts practiced:**
 
-- Variables
-- Arithmetic operations
-- Numeric input
-- Formatted output
+* Variables
+* Arithmetic operations
+* Numeric input
+* Formatted output
 
 **File:**
 
@@ -206,9 +205,9 @@ A Python program that estimates the travel time for a journey based on the dista
 
 **Information collected:**
 
-- Destination
-- Distance in kilometers
-- Average speed in km/h
+* Destination
+* Distance in kilometers
+* Average speed in km/h
 
 **Calculation:**
 
@@ -220,11 +219,11 @@ The program displays the estimated travel time in hours.
 
 **Concepts practiced:**
 
-- `float()`
-- Arithmetic operations
-- User input
-- Real-world calculations
-- Formatted output
+* `float()`
+* Arithmetic operations
+* User input
+* Real-world calculations
+* Formatted output
 
 **File:**
 
@@ -234,11 +233,108 @@ task07_travel_planner.py
 
 ---
 
-## What I Learned So Far
+### Task 8 — Exam Result Report
 
-Through the first seven tasks, I have practiced the fundamentals of Python programming. I learned how to use variables and different data types, collect user input, convert input into numeric values using `int()` and `float()`, perform arithmetic operations, and format program output.
+A Python program that collects a student's scores in three subjects and calculates the average.
 
-I also practiced applying Python to simple real-world problems such as calculating measurements, converting temperatures, creating receipts and payslips, and estimating travel time.
+**Information collected:**
+
+* Student name
+* Python score
+* English score
+* Mathematics score
+
+**Calculation:**
+
+```text
+Average = (Python + English + Mathematics) / 3
+```
+
+The program displays a formatted student result report.
+
+**Concepts practiced:**
+
+* User input
+* Numbers
+* Arithmetic operations
+* Average calculation
+* Formatted output
+
+**File:**
+
+```text
+task08_exam_report.py
+```
+
+---
+
+### Task 9 — Currency Exchange Desk
+
+A Python program that converts an amount from **USD to Ethiopian Birr (ETB)** using a fixed exchange rate.
+
+**Exchange rate:**
+
+```text
+1 USD = 150 ETB
+```
+
+The exchange rate is stored in a variable and used to calculate the converted amount.
+
+**Concepts practiced:**
+
+* Variables
+* Arithmetic operations
+* Constants by convention
+* User input
+* Formatted output
+
+**File:**
+
+```text
+task09_currency_exchange.py
+```
+
+---
+
+### Task 10 — BMI Health Information
+
+A Python program that calculates a person's Body Mass Index (BMI) using their weight and height.
+
+**Information collected:**
+
+* Name
+* Weight in kilograms
+* Height in meters
+
+**Formula:**
+
+```text
+BMI = Weight / (Height × Height)
+```
+
+The program displays a formatted BMI report.
+
+**Concepts practiced:**
+
+* `float()`
+* User input
+* Arithmetic operations
+* Mathematical formulas
+* Formatted output
+
+**File:**
+
+```text
+task10_bmi.py
+```
+
+---
+
+## What I Learned
+
+Through the ten tasks, I practiced the fundamentals of Python programming. I learned how to use variables and different data types, collect user input, convert input into numeric values using `int()` and `float()`, perform arithmetic operations, apply mathematical formulas, and format program output.
+
+I also practiced using Python to solve simple real-world problems such as calculating measurements, converting temperatures and currencies, creating receipts and payslips, calculating averages and BMI, and estimating travel time.
 
 ---
 
@@ -246,24 +342,25 @@ I also practiced applying Python to simple real-world problems such as calculati
 
 ```text
 akiba-week1-python/
-
+│
 ├── README.md
-
+│
 ├── task01_personal_introduction.py
 ├── task02_student_id.py
 ├── task03_rectangle.py
 ├── task04_temperature.py
 ├── task05_shopping_receipt.py
 ├── task06_employee_payslip.py
-└── task07_travel_planner.py
+├── task07_travel_planner.py
+├── task08_exam_report.py
+├── task09_currency_exchange.py
+└── task10_bmi.py
 ```
-
-More tasks and the Week 1 mini project will be added as I progress through the bootcamp.
 
 ---
 
 ## Technologies
 
-- Python
-- Git
-- GitHub
+* Python
+* Git
+* GitHub
