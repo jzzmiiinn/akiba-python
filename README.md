@@ -1,8 +1,8 @@
-# AKIBA TECHNOLOGIES — Week 1 Python Programming Foundations
+# AKIBA Python
 
-This repository contains my work for **Week 1 of the AKIBA TECHNOLOGIES Software Engineering & Backend Bootcamp**.
+This repository contains my work throughout the **AKIBA TECHNOLOGIES Software Engineering & Backend Bootcamp**.
 
-The first week focuses on building a strong foundation in Python programming through practical tasks involving variables, data types, strings, user input, output, type conversion, arithmetic operations, and basic real-world calculations.
+The repository is organized into weekly folders, with each week containing the Python exercises, projects, and documentation completed during that stage of the bootcamp.
 
 ---
 
@@ -11,356 +11,124 @@ The first week focuses on building a strong foundation in Python programming thr
 * **Name:** Yasmin Ali
 * **GitHub Username:** jzzmiiinn
 * **Bootcamp:** AKIBA TECHNOLOGIES Software Engineering & Backend Bootcamp
-* **Week:** 1
-* **Focus:** Python Programming Foundations
+* **Focus:** Python Programming & Backend Development
 
 ---
 
-## Tasks
+## 📚 Weekly Content
 
-### Task 1 — Personal Introduction
+### Week 1 — Python Programming Foundations
 
-A Python program that collects personal information from the user and displays it as a professional introduction.
+The first week focused on building a foundation in Python programming.
 
-**Information collected:**
+**Topics covered:**
 
-* Full name
-* Age
-* City
-* University
-* Department
-* Favorite programming language
-* Programming goal
-
-**Concepts practiced:**
-
-* Variables
+* Variables and data types
 * Strings
-* `input()`
-* `print()`
-* Formatted output
-
-**File:**
-
-```text
-task01_personal_introduction.py
-```
-
----
-
-### Task 2 — Student ID Card
-
-A Python program that collects student information and displays it in a simple student ID card format.
-
-**Information collected:**
-
-* Student name
-* Student ID
-* Department
-* Year
-* University
-* Phone number
-
-**Concepts practiced:**
-
-* Variables
-* Strings
-* Integers
-* User input
-* Formatted output
-
-**File:**
-
-```text
-task02_student_id.py
-```
-
----
-
-### Task 3 — Rectangle Workshop
-
-A Python program that calculates the **area** and **perimeter** of a rectangle using values provided by the user.
-
-**Information collected:**
-
-* Length
-* Width
-
-**Calculations:**
-
-```text
-Area = Length × Width
-Perimeter = 2 × (Length + Width)
-```
-
-**Concepts practiced:**
-
-* Numbers
-* Arithmetic operators
-* User input
+* User input and output
 * Type conversion
+* Arithmetic operators
+* Comparison operators
 * Formatted output
+* Basic Python program structure
+* Git and GitHub
 
-**File:**
+**Completed tasks:**
 
-```text
-task03_rectangle.py
-```
+1. Personal Introduction
+2. Student ID Card
+3. Rectangle Workshop
+4. Temperature Station
+5. Ethiopian Shopping Receipt
+6. Employee Payslip
+7. Travel Planner
+8. Exam Result Report
+9. Currency Exchange Desk
+10. BMI Health Information
+11. Student Profile System — Mini Project
 
----
-
-### Task 4 — Temperature Station
-
-A Python program that converts a temperature from **Celsius to Fahrenheit**.
-
-**Formula:**
-
-```text
-F = (C × 9/5) + 32
-```
-
-The program displays both the Celsius and Fahrenheit temperatures.
-
-**Concepts practiced:**
-
-* `float()`
-* Arithmetic operations
-* Mathematical formulas
-* User input
-* Formatted output
-
-**File:**
-
-```text
-task04_temperature.py
-```
+**Folder:** `week-1/`
 
 ---
 
-### Task 5 — Ethiopian Shopping Receipt
+### Week 2 — Conditions, Loops & Computational Thinking
 
-A Python program that creates a simple shopping receipt based on customer and product information provided by the user.
+The second week focuses on using conditions and loops to solve problems and developing computational thinking skills.
 
-**Information collected:**
+**Topics covered:**
 
-* Customer name
-* Product name
-* Price
-* Quantity
+* Conditional statements
+* `if`, `elif`, and `else`
+* Comparison operators
+* Logical operators
+* `for` loops
+* `while` loops
+* Modulus operator
+* Input validation
+* Edge cases
+* Computational thinking
 
-The program calculates the total price and displays a formatted receipt.
+**Completed tasks:**
 
-**Concepts practiced:**
+1. Even or Odd
+2. Largest of Three
+3. Prime Number Checker
 
-* Numbers
-* Multiplication
-* Variables
-* Strings
-* Formatted output
+**Folder:** `week-2/`
 
-**File:**
-
-```text
-task05_shopping_receipt.py
-```
-
----
-
-### Task 6 — Employee Payslip
-
-A Python program that generates a simple employee payslip.
-
-**Information collected:**
-
-* Employee name
-* Basic salary
-* Transport allowance
-* Food allowance
-
-The program calculates the gross salary:
-
-```text
-Gross Salary =
-Basic Salary + Transport Allowance + Food Allowance
-```
-
-**Concepts practiced:**
-
-* Variables
-* Arithmetic operations
-* Numeric input
-* Formatted output
-
-**File:**
-
-```text
-task06_employee_payslip.py
-```
+More Week 2 tasks will be added as they are completed.
 
 ---
 
-### Task 7 — Travel Planner
-
-A Python program that estimates the travel time for a journey based on the distance and average speed.
-
-**Information collected:**
-
-* Destination
-* Distance in kilometers
-* Average speed in km/h
-
-**Calculation:**
+## 📁 Project Structure
 
 ```text
-Time = Distance / Speed
-```
-
-The program displays the estimated travel time in hours.
-
-**Concepts practiced:**
-
-* `float()`
-* Arithmetic operations
-* User input
-* Real-world calculations
-* Formatted output
-
-**File:**
-
-```text
-task07_travel_planner.py
-```
-
----
-
-### Task 8 — Exam Result Report
-
-A Python program that collects a student's scores in three subjects and calculates the average.
-
-**Information collected:**
-
-* Student name
-* Python score
-* English score
-* Mathematics score
-
-**Calculation:**
-
-```text
-Average = (Python + English + Mathematics) / 3
-```
-
-The program displays a formatted student result report.
-
-**Concepts practiced:**
-
-* User input
-* Numbers
-* Arithmetic operations
-* Average calculation
-* Formatted output
-
-**File:**
-
-```text
-task08_exam_report.py
-```
-
----
-
-### Task 9 — Currency Exchange Desk
-
-A Python program that converts an amount from **USD to Ethiopian Birr (ETB)** using a fixed exchange rate.
-
-**Exchange rate:**
-
-```text
-1 USD = 150 ETB
-```
-
-The exchange rate is stored in a variable and used to calculate the converted amount.
-
-**Concepts practiced:**
-
-* Variables
-* Arithmetic operations
-* Constants by convention
-* User input
-* Formatted output
-
-**File:**
-
-```text
-task09_currency_exchange.py
-```
-
----
-
-### Task 10 — BMI Health Information
-
-A Python program that calculates a person's Body Mass Index (BMI) using their weight and height.
-
-**Information collected:**
-
-* Name
-* Weight in kilograms
-* Height in meters
-
-**Formula:**
-
-```text
-BMI = Weight / (Height × Height)
-```
-
-The program displays a formatted BMI report.
-
-**Concepts practiced:**
-
-* `float()`
-* User input
-* Arithmetic operations
-* Mathematical formulas
-* Formatted output
-
-**File:**
-
-```text
-task10_bmi.py
-```
-
----
-
-## What I Learned
-
-Through the ten tasks, I practiced the fundamentals of Python programming. I learned how to use variables and different data types, collect user input, convert input into numeric values using `int()` and `float()`, perform arithmetic operations, apply mathematical formulas, and format program output.
-
-I also practiced using Python to solve simple real-world problems such as calculating measurements, converting temperatures and currencies, creating receipts and payslips, calculating averages and BMI, and estimating travel time.
-
----
-
-## Project Structure
-
-```text
-akiba-week1-python/
+akiba-python/
 │
-├── README.md
+├── week-1/
+│   ├── mini_project/
+│   │   └── student_profile.py
+│   ├── README.md
+│   ├── task01_personal_introduction.py
+│   ├── task02_student_id.py
+│   ├── task03_rectangle.py
+│   ├── task04_temperature.py
+│   ├── task05_shopping_receipt.py
+│   ├── task06_employee_payslip.py
+│   ├── task07_travel_planner.py
+│   ├── task08_exam_report.py
+│   ├── task09_currency_exchange.py
+│   └── task10_bmi.py
 │
-├── task01_personal_introduction.py
-├── task02_student_id.py
-├── task03_rectangle.py
-├── task04_temperature.py
-├── task05_shopping_receipt.py
-├── task06_employee_payslip.py
-├── task07_travel_planner.py
-├── task08_exam_report.py
-├── task09_currency_exchange.py
-└── task10_bmi.py
+├── week-2/
+│   ├── README.md
+│   ├── task_01_even_odd.py
+│   ├── task_02_largest_three.py
+│   └── task_03_prime_checker.py
+│
+├── week-3/
+│   └── ...
+│
+├── week-4/
+│   └── ...
+│
+└── README.md
 ```
 
 ---
 
-## Technologies
+## 🛠️ Technologies
 
 * Python
 * Git
 * GitHub
+
+---
+
+## 🎯 Learning Goals
+
+The goal of this repository is to document my progress throughout the AKIBA TECHNOLOGIES Software Engineering & Backend Bootcamp.
+
+Through the weekly exercises and projects, I am building a strong foundation in Python and gradually developing the skills needed for backend and full-stack development.
+
+Each week introduces new concepts and provides practical problems that help me improve my programming, problem-solving, and computational thinking skills.
