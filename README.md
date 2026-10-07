@@ -1,8 +1,8 @@
 # AKIBA Python
 
-This repository contains my work throughout the **AKIBA TECHNOLOGIES Software Engineering & Backend Bootcamp**.
+A collection of Python exercises and projects completed throughout the **AKIBA TECHNOLOGIES Software Engineering & Backend Bootcamp**.
 
-The repository is organized into weekly folders, with each week containing the Python exercises, projects, and documentation completed during that stage of the bootcamp.
+This repository is organized by week and documents my progress as I learn Python programming, problem-solving, computational thinking, and backend development concepts.
 
 ---
 
@@ -19,7 +19,7 @@ The repository is organized into weekly folders, with each week containing the P
 
 ### Week 1 — Python Programming Foundations
 
-The first week focused on building a foundation in Python programming.
+The first week focused on building a foundation in Python through practical exercises and simple real-world problems.
 
 **Topics covered:**
 
@@ -27,8 +27,7 @@ The first week focused on building a foundation in Python programming.
 * Strings
 * User input and output
 * Type conversion
-* Arithmetic operators
-* Comparison operators
+* Arithmetic operations
 * Formatted output
 * Basic Python program structure
 * Git and GitHub
@@ -53,7 +52,7 @@ The first week focused on building a foundation in Python programming.
 
 ### Week 2 — Conditions, Loops & Computational Thinking
 
-The second week focuses on using conditions and loops to solve problems and developing computational thinking skills.
+The second week focuses on using conditions and loops to make decisions, repeat actions, and solve problems through computational thinking.
 
 **Topics covered:**
 
@@ -73,6 +72,9 @@ The second week focuses on using conditions and loops to solve problems and deve
 1. Even or Odd
 2. Largest of Three
 3. Prime Number Checker
+4. Palindrome Checker
+5. Sum of Digits
+6. FizzBuzz
 
 **Folder:** `week-2/`
 
@@ -102,9 +104,12 @@ akiba-python/
 │
 ├── week-2/
 │   ├── README.md
-│   ├── task_01_even_odd.py
-│   ├── task_02_largest_three.py
-│   └── task_03_prime_checker.py
+│   ├── task01_even_odd.py
+│   ├── task02_largest_three.py
+│   ├── task03_prime_checker.py
+│   ├── task04_palindrome.py
+│   ├── task05_sum_digits.py
+│   └── task06_fizzbuzz.py
 │
 ├── week-3/
 │   └── ...
@@ -125,10 +130,8 @@ akiba-python/
 
 ---
 
-## 🎯 Learning Goals
+## 🎯 What I Am Learning
 
-The goal of this repository is to document my progress throughout the AKIBA TECHNOLOGIES Software Engineering & Backend Bootcamp.
+Throughout the bootcamp, I am practicing Python by building small programs and solving progressively more challenging problems.
 
-Through the weekly exercises and projects, I am building a strong foundation in Python and gradually developing the skills needed for backend and full-stack development.
-
-Each week introduces new concepts and provides practical problems that help me improve my programming, problem-solving, and computational thinking skills.
+The goal is to strengthen my programming fundamentals, problem-solving skills, and computational thinking while gradually building the knowledge needed for backend development.
