@@ -25,7 +25,7 @@ Determines whether a number entered by the user is even or odd.
 
 ### Task 2 — Largest of Three
 
-Compares three numbers entered by the user and determines which number is the largest.
+Compares three numbers entered by the user and determines the largest number.
 
 The program also handles cases where two or all three numbers are equal.
 
@@ -33,9 +33,9 @@ The program also handles cases where two or all three numbers are equal.
 
 ### Task 3 — Prime Number Checker
 
-Determines whether a number entered by the user is a prime number.
+Determines whether a number entered by the user is a prime number using a loop.
 
-The program uses a loop to check possible divisors and handles important cases such as `0`, `1`, and `2`.
+The program handles important cases such as `0`, `1`, and `2`.
 
 **File:** `task_03_prime_checker.py`
 
@@ -59,6 +59,22 @@ Prints numbers within a given range while replacing multiples of 3 with `Fizz`, 
 
 **File:** `task_06_fizzbuzz.py`
 
+### Task 7 — Number Guessing Game
+
+Creates a simple number guessing game where the user tries to guess a randomly selected number.
+
+The program provides feedback to help the user determine whether their guess is too high or too low.
+
+**File:** `task_07_number_guessing.py`
+
+### Task 8 — Count Numbers
+
+Processes a series of numbers entered by the user and counts numbers based on the required conditions.
+
+This task focuses on using loops and conditions to process multiple inputs.
+
+**File:** `task_08_count_numbers.py`
+
 ## 📁 Project Structure
 
 ```text
@@ -69,7 +85,9 @@ week-2/
 ├── task_03_prime_checker.py
 ├── task_04_palindrome.py
 ├── task_05_sum_digits.py
-└── task_06_fizzbuzz.py
+├── task_06_fizzbuzz.py
+├── task_07_number_guessing.py
+└── task_08_count_numbers.py
 ```
 
 ## 🛠️ Technologies
@@ -80,8 +98,8 @@ week-2/
 
 ## 🎯 What I Learned
 
-Through the first six tasks of Week 2, I practiced using conditional statements and loops to solve different programming problems.
+Throughout Week 2, I practiced using conditions and loops to solve different programming problems.
 
-I learned how to compare values, check conditions, use the modulus operator, work with repeated operations using `for` and `while` loops, and handle different inputs and edge cases.
+I learned how to make decisions using `if`, `elif`, and `else`, repeat operations using `for` and `while` loops, use the modulus operator, compare values, and handle different inputs and edge cases.
 
 These tasks also helped me improve my computational thinking by breaking problems into smaller steps and designing the logic before writing the code.
