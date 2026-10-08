@@ -75,6 +75,8 @@ The second week focuses on using conditions and loops to make decisions, repeat 
 4. Palindrome Checker
 5. Sum of Digits
 6. FizzBuzz
+7. Number Guessing Game
+8. Count Numbers
 
 **Folder:** `week-2/`
 
@@ -104,12 +106,14 @@ akiba-python/
 │
 ├── week-2/
 │   ├── README.md
-│   ├── task01_even_odd.py
-│   ├── task02_largest_three.py
-│   ├── task03_prime_checker.py
-│   ├── task04_palindrome.py
-│   ├── task05_sum_digits.py
-│   └── task06_fizzbuzz.py
+│   ├── task_01_even_odd.py
+│   ├── task_02_largest_three.py
+│   ├── task_03_prime_checker.py
+│   ├── task_04_palindrome.py
+│   ├── task_05_sum_digits.py
+│   ├── task_06_fizzbuzz.py
+│   ├── task_07_number_guessing.py
+│   └── task_08_count_numbers.py
 │
 ├── week-3/
 │   └── ...
