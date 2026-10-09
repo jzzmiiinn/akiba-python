@@ -77,10 +77,12 @@ The second week focuses on using conditions and loops to make decisions, repeat 
 6. FizzBuzz
 7. Number Guessing Game
 8. Count Numbers
+9. ATM PIN System
+10. Number Analyzer
+
+**Mini Project:** Simple Bank Account System
 
 **Folder:** `week-2/`
-
-More Week 2 tasks will be added as they are completed.
 
 ---
 
@@ -106,14 +108,16 @@ akiba-python/
 │
 ├── week-2/
 │   ├── README.md
-│   ├── task_01_even_odd.py
-│   ├── task_02_largest_three.py
-│   ├── task_03_prime_checker.py
-│   ├── task_04_palindrome.py
-│   ├── task_05_sum_digits.py
-│   ├── task_06_fizzbuzz.py
-│   ├── task_07_number_guessing.py
-│   └── task_08_count_numbers.py
+│   ├── task01_even_odd.py
+│   ├── task02_largest_three.py
+│   ├── task03_prime_checker.py
+│   ├── task04_palindrome.py
+│   ├── task05_sum_digits.py
+│   ├── task06_fizzbuzz.py
+│   ├── task07_number_guessing.py
+│   ├── task08_count_numbers.py
+│   ├── task09_atm_pin.py
+│   └── task10_number_analyzer.py
 │
 ├── week-3/
 │   └── ...
@@ -138,4 +142,4 @@ akiba-python/
 
 Throughout the bootcamp, I am practicing Python by building small programs and solving progressively more challenging problems.
 
-The goal is to strengthen my programming fundamentals, problem-solving skills, and computational thinking while gradually building the knowledge needed for backend development.
+These exercises help me strengthen my programming fundamentals, problem-solving skills, and computational thinking while gradually building the knowledge needed for backend development.
